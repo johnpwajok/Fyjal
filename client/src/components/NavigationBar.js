@@ -2,6 +2,6 @@ import React, { Component } from "react";
 
 export default class NavigationBar extends Component {
   render() {
-    return <div>Navbar page</div>;
+    return <div>Navbar</div>;
   }
 }
