@@ -1,0 +1,148 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat-black", sans-serif;
+  font: Montserrat-black;
+}
+
+h3 {
+  font-family: "Montserrat-bold", sans-serif;
+}
+
+/**********************************************************************/
+/*Navbar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: ubuntu;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: Montserrat-light;
+  font-size: 1.2rem;
+}
+
+/**********************************************************************/
+/*Title Section*/
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/*Sections*/
+.heading-section {
+  /* background-color: #B53737; */
+
+  background-image: url("../images/dublin-skyline.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.plain-section {
+  background-color: #fff;
+}
+
+.row {
+  width: 100%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.intro-text {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.title-image {
+  width: 45%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 25%;
+}
+
+/*******************************************************************************/
+/*Description Section*/
+
+/**************************
+/*Company Intro Section*/
+
+#companyIntro {
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+#introMessage {
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+#features {
+  padding: 5% 5%;
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  margin-top: 0px;
+}
+
+.icon {
+  color: #e60026;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  float: left;
+  padding: 5%;
+  background-color: white;
+}
+
+.feature-title {
+  color: black;
+  font-size: 1.5rem;
+  padding: 0.3rem 0;
+}
+/************************************************************************/
+/*Mobile viewports*/
+@media (max-width: 1135px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* large viewports
+@media (min-width: 2150px) {
+  .coloured-section {
+    /* background-color: #ff4c68; 
+    min-height: 1000px;
+  }
+} */
