@@ -167,6 +167,9 @@ h3 {
   /* border-radius: 5%; */
   background-image: radial-gradient(white, white, whiteSmoke);
 }
+#partnersDiv {
+  max-width: 1200px;
+}
 
 #partnersTitle {
   font-size: 3rem;
@@ -224,11 +227,11 @@ h3 {
 /****************************************************************/
 /* Footer Section */
 #footer {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   padding-bottom: 0;
 }
 .social-media-icons {
-  margin: 0 10px 20px;
+  margin: 0 10px 0px;
 }
 
 /************************************************************************/

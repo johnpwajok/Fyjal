@@ -6,7 +6,6 @@ import PartnersSection from "./PartnersSection";
 import PricingSection from "./PricingSection";
 import InfoCarousel from "./InfoCarousel";
 import Footer from "./Footer";
-import CompanyIntro from "./CompanyIntro";
 import Cta from "./Cta";
 
 export default class Landing extends Component {
@@ -35,7 +34,6 @@ export default class Landing extends Component {
         <div>
           <Footer></Footer>
         </div>
-        <br></br>
       </div>
     );
   }

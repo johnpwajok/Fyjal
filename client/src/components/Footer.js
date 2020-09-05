@@ -10,8 +10,10 @@ export default class Footer extends Component {
           <i class="social-media-icons fab fa-facebook-f"></i>
           <i class="social-media-icons fab fa-instagram"></i>
           <i class="social-media-icons fas fa-envelope"></i>
+          <br></br>
 
-          <p>© Copyright 2020 Fyjal</p>
+          <p>© Copyright 2020 Fyjal </p>
+          <p>Created by John Pwajok</p>
         </div>
       </div>
     );
