@@ -20,7 +20,21 @@ h3 {
 
 /**********************************************************************/
 /*Navbar*/
+#navbar {
+}
 
+.navbar-custom {
+  background-color: #e60026;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.HashLink {
+  color: white;
+  margin-left: 3rem;
+}
 /**********************************************************************/
 /*Title Section*/
 #title {
@@ -121,7 +135,7 @@ h3 {
 
 #infoCarousel {
   width: 100%;
-  padding-bottom: 10rem;
+  padding-bottom: 7rem;
 }
 .carouselDiv {
   width: 75%;
@@ -203,6 +217,11 @@ h3 {
 }
 
 /****************************************************************/
+/* Cta Section */
+#cta {
+  padding: 5% 20%;
+}
+/****************************************************************/
 /* Footer Section */
 #footer {
   margin-bottom: 4rem;
@@ -240,6 +259,15 @@ h3 {
     font-size: 2.5rem;
     font-weight: 500;
     line-height: 1;
+  }
+  #carousel-caption1 {
+    font-size: 1.5rem;
+  }
+  #carousel-caption2 {
+    font-size: 1.5rem;
+  }
+  .carouselCaptionText {
+    font-size: 1rem;
   }
 }
 
