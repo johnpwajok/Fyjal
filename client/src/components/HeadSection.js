@@ -17,7 +17,7 @@ export default class HeadSection extends Component {
               </button>
               <button
                 type="button"
-                class="btn btn-outline-light btn-lg download-button"
+                class="btn btn-light btn-lg download-button"
               >
                 <i class="fab fa-google-play"></i> Download
               </button>

@@ -1,6 +1,7 @@
 body {
   font-family: Montserrat;
   text-align: center;
+  margin: 0;
 }
 
 h1,
@@ -13,26 +14,12 @@ h3 {
   font-family: "Montserrat-bold", sans-serif;
 }
 
+.container {
+  margin: none;
+}
+
 /**********************************************************************/
 /*Navbar*/
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
-.navbar-brand {
-  font-size: 2.5rem;
-  font-family: ubuntu;
-  font-weight: bold;
-}
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-family: Montserrat-light;
-  font-size: 1.2rem;
-}
 
 /**********************************************************************/
 /*Title Section*/
@@ -47,6 +34,7 @@ h3 {
 /*Sections*/
 .heading-section {
   /* background-color: #B53737; */
+  margin: 0;
 
   background-image: url("../images/dublin-skyline.jpg");
 
@@ -127,6 +115,61 @@ h3 {
   font-size: 1.5rem;
   padding: 0.3rem 0;
 }
+
+/**************************************************************/
+/*partners Section*/
+#partnersSection {
+  border-radius: 5%;
+  background-image: radial-gradient(white, white, grey);
+}
+
+#partnersTitle {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+/****************************************/
+/*Features Section*/
+.featuresSection {
+}
+#press {
+  padding-bottom: 3%;
+  margin-top: 0;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/**************************************************************/
+/* Pricing Section */
+#pricing {
+  padding: 25px;
+}
+
+.pricing-header {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 2% 2%;
+}
+
+.planType {
+  color: black;
+  font-size: 1.5rem;
+  padding: 0.3rem 0;
+}
+
+/****************************************************************/
+/* Footer Section */
+.social-media-icons {
+  margin: 0 10px 20px;
+}
+
 /************************************************************************/
 /*Mobile viewports*/
 @media (max-width: 1135px) {
