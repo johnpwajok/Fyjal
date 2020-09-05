@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class Footer extends Component {
   render() {
     return (
-      <div>
+      <div id="footer">
         <hr></hr>
         <div class="container-fluid">
           <i class="social-media-icons fab fa-twitter"></i>

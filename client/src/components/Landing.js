@@ -4,7 +4,7 @@ import companyIntro from "./CompanyIntro";
 import DescriptionSection from "./DescriptionSection";
 import PartnersSection from "./PartnersSection";
 import PricingSection from "./PricingSection";
-import ContactSection from "./ContactSection";
+import InfoCarousel from "./InfoCarousel";
 import Footer from "./Footer";
 import CompanyIntro from "./CompanyIntro";
 
@@ -14,9 +14,10 @@ export default class Landing extends Component {
       <div id="container">
         <HeadSection></HeadSection>
         <DescriptionSection></DescriptionSection>
+        <InfoCarousel></InfoCarousel>
         <PartnersSection></PartnersSection>
         <PricingSection></PricingSection>
-        <ContactSection></ContactSection>
+
         <Footer></Footer>
         <br></br>
       </div>

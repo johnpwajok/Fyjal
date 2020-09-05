@@ -10,7 +10,7 @@ export default class PricingSection extends Component {
           <div class="row">
             <div class="pricing-column col-lg-4 col-md-6">
               <div class="card">
-                <div class="card-header">
+                <div class="card-header freeHeader">
                   <h3 class="planType">Free</h3>
                 </div>
                 <div class="card-body">
@@ -30,7 +30,7 @@ export default class PricingSection extends Component {
 
             <div class="pricing-column col-lg-4 col-md-6">
               <div class="card">
-                <div class="card-header">
+                <div class="card-header ">
                   <h3 class="planType">Gold</h3>
                 </div>
                 <div class="card-body">
@@ -38,7 +38,10 @@ export default class PricingSection extends Component {
                   <p>Lorem ipsum dolor sit amet</p>
                   <p>Lorem ipsum dolor sit amet</p>
                   <p>Lorem ipsum dolor sit amet</p>
-                  <button type="button" class="btn btn-lg btn-block btn-dark">
+                  <button
+                    type="button"
+                    class="btn btn-lg btn-block btn-warning goldButton"
+                  >
                     Upgrade
                   </button>
                 </div>
@@ -56,7 +59,10 @@ export default class PricingSection extends Component {
                   <p>Lorem ipsum dolor sit amet</p>
                   <p>Lorem ipsum dolor sit amet</p>
                   <p>Lorem ipsum dolor sit amet</p>
-                  <button type="button" class="btn btn-lg btn-block btn-dark">
+                  <button
+                    type="button"
+                    class="btn btn-lg btn-block btn-dark platinumButton"
+                  >
                     Upgrade
                   </button>
                 </div>

@@ -117,10 +117,41 @@ h3 {
 }
 
 /**************************************************************/
+/*Info carousel Section*/
+
+#infoCarousel {
+  width: 100%;
+  padding-bottom: 10rem;
+}
+.carouselDiv {
+  width: 75%;
+}
+
+.carouselImage {
+  width: 75%;
+  height: 650px;
+}
+
+#carousel-caption1 {
+  color: #e60026;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+#carousel-caption2 {
+  color: #e60026;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.carouselCaptionText {
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+}
+/**************************************************************/
 /*partners Section*/
 #partnersSection {
-  border-radius: 5%;
-  background-image: radial-gradient(white, white, grey);
+  /* border-radius: 5%; */
+  background-image: radial-gradient(white, white, whiteSmoke);
 }
 
 #partnersTitle {
@@ -146,12 +177,19 @@ h3 {
 /* Pricing Section */
 #pricing {
   padding: 25px;
+  margin-top: 3rem;
 }
 
 .pricing-header {
   font-size: 3rem;
   font-weight: 900;
   line-height: 1.5;
+}
+.goldButton {
+  background-color: gold;
+}
+.platinumButton {
+  background-color: platinum;
 }
 
 .pricing-column {
@@ -166,6 +204,10 @@ h3 {
 
 /****************************************************************/
 /* Footer Section */
+#footer {
+  margin-bottom: 4rem;
+  padding-bottom: 0;
+}
 .social-media-icons {
   margin: 0 10px 20px;
 }
@@ -179,6 +221,25 @@ h3 {
   .title-image {
     position: static;
     transform: rotate(0);
+  }
+  .intro-text {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 700px) {
+  .carouselImage {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 536px) {
+  .intro-text {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1;
   }
 }
 
